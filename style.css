@@ -24,7 +24,7 @@
     text-align: center;
     margin-bottom: 45px;
 }
-.header > h1 {
+.header > h2 {
     color: #E53170;
     font-size: 40px;
     margin-top: 35px;
@@ -40,10 +40,33 @@
 
 .card {
     width: calc(100%/3 - 30px);
+    height: 100px;
     color: white;
     background-color: #0f0e17;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     float: left;
-    padding: 10px;
-    margin: 0 15px;
+    margin: 0 15px 50px;
+}
+
+.card-pic {
+    height: 100px;
+    float: left;
+    padding-right: 16px;
+}
+
+.card-info {
+    padding: 5px;
+}
+
+.small {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: smaller;
+}
+
+.email {
+    color: #58c2eb;
+    text-decoration: none;
+    display: block;
+    font-size: smaller;
 }
