@@ -1,12 +1,32 @@
+/* --------------GENERALE-------------- */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Fredoka', sans-serif;
+    font-size: 17.5px;
+}
+
+.container {
+    max-width: 1130px;
+    margin: auto;
 }
 
 .clearfix::after {
     content: "";
     display: block;
     clear: both;
+}
+
+/* --------------SEZIONE HEADER-------------- */
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.header > h1 {
+    color: #E53170;
+    font-size: 40px;
+    margin-top: 35px;
+    margin-bottom: 45px;
 }
